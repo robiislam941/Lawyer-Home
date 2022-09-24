@@ -26,7 +26,7 @@ a, a:hover{
     font-weight: 700;
     letter-spacing: 2px;
     margin: 0px 0px 0px 20px;
-    color: #28377e;
+    color: #1f4f87;
     transition: 1s;
 }
 .header-section .navbar-nav .nav-item .nav-link:hover, .header-section .navbar-nav .nav-item .nav-link:focus{
@@ -119,12 +119,227 @@ a, a:hover{
 	margin: 10px 0px 0px;
 	text-align: center;
 }
-
-.we-do .item{
-	width: 100%
+.inner-image{
+	width: 100%;
 	position: relative;
 }
-.we-do .icon{
+.inner-image .img-fluid{
 	width: 100%;
-	position: absolute;
+}
+.inner-wedo {
+    width: 100%;
+    position: absolute;
+    top: 46%;
+    left: 0px;
+    text-align: center;
+}
+.inner-wedo h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+}
+.inner-wedo .fa{
+	font-weight: 900;
+	padding: 140px 0px;
+	color: #fff;
+}
+.our-attorney{
+	width: 100%;
+	padding: 110px 0px;
+	background: url("../images/our-attorneys-bg.png") center top no-repeat;
+	background-size: cover;
+}
+.our-attorney .title{
+	width: 100%;
+	padding: 150px 0px 20px;
+}
+.our-attorney .title span{
+	width: 50px;
+	height: 3px;
+	display: block;
+    background-color: #e76128;
+    margin: 0px 0px 10px;
+}
+.our-attorney .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	margin: 10px 0px 0px;
+}
+.our-attorney p{
+	font-size:16px;
+	line-height: 26px;
+	color: #929dcf;
+}
+.our-attorney .btn-link{
+    text-decoration: none;
+    padding: 0px;
+    margin: 15px 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #e76128;
+}
+.our-attorney .btn-link:hover, .our-attorney .btn-link:focus{
+	color: #fff !important;
+}
+.our-attorney .inner-image{
+	width: 100%;
+	position: relative;
+}
+.our-attorney .inner-image .img-fluid{
+    width: 100%;
+    margin: 0px 0px 20px;
+}
+.our-attorney .inner-attorney {
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+.our-attorney .inner-attorney h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+}
+.feature-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature-section .title{
+	width: 100%;
+	padding: 0px 0px 10px;
+	text-align: center;
+}
+.feature-section .title span{
+	width: 50px;
+	height: 3px;
+	display: block;
+    background-color: #e76128;
+    margin: 0px auto 10px;
+    text-align: center;
+}
+.feature-section .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #28377e;
+	padding: 5px 0px 50px;
+}
+.feature-section .title h4{
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #28377e;
+	text-align: left;
+}
+.feature-section p{
+	padding: 0px;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	color: #b0b0b1;
+}
+.feature-section .btn-link{
+	text-decoration: none;
+    padding: 0px;
+    margin: 15px 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #e76128;
+}
+/*contact code start*/
+.contact {
+    background-color: #28377e;
+    padding: 80px 0px;
+}
+.contact .title{
+	width: 100%;
+	padding: 0px 0px 10px;
+	text-align: center;
+}
+.contact .title span{
+	width: 50px;
+	height: 3px;
+	display: block;
+    background-color: #e76128;
+    margin: 0px auto 10px;
+    text-align: center;
+}
+.contact .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	padding: 5px 0px 50px;
+}
+
+.contact .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    font-size: 14px;
+    font: #fff;
+}
+
+.contact .form-control:focus { 
+    background-color: transparent ;
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+}
+
+.contact .btn-primary {
+    color: #fff;
+    background-color: #ec6b29;
+    border: none;
+    padding: 10px 80px;
+    border-radius: 0;
+    margin: 40px 0px;
+  }
+
+.footer{
+	width: 100%;
+	padding: 20px 0px;
+	background:#0c1234;
+	margin: 0px auto;
+}
+.footer .copyright{
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0px;
+	color: #616ca8;
+}
+.footer .copyright:hover, .footer .copyright:focus{
+	color:#e76128 ;
+	background:transparent;
+}
+.footer ul{
+	list-style: none;
+    text-align: right;
+    color: #fff;
+}
+.footer li{
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+.footer li a{
+	color: #fff;
+}
+.footer li a:hover, .footer li a:focus{
+	color:#e76128 ;
+	background:transparent;
 }
