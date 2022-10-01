@@ -322,6 +322,7 @@ a, a:hover{
 	font-weight: 600;
 	margin: 0px;
 	color: #616ca8;
+	text-decoration: none;
 }
 .footer .copyright:hover, .footer .copyright:focus{
 	color:#e76128 ;
