@@ -2,6 +2,9 @@
 	padding: 0px;
 	margin: 0px;
 }
+html{
+	overflow-x: hidden;
+}
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -14,26 +17,26 @@ a, a:hover{
 	text-decoration: none;
 }
 /*header-section start here*/
-.header-section{
+.header{
 	width: 100%;
 	padding: 15px 0px;
 	background: #fff;
 }
-.header-section .navbar-nav .nav-item .nav-link {
-    font-size: 14px;
+.header .navbar-nav .nav-item .nav-link { 
+    font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 2px;
-    margin: 0px 0px 0px 20px;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 15px;
     color: #1f4f87;
     transition: 1s;
 }
-.header-section .navbar-nav .nav-item .nav-link:hover, .header-section .navbar-nav .nav-item .nav-link:focus{
+.header .navbar-nav .nav-item .nav-link:hover, .header-section .navbar-nav .nav-item .nav-link:focus{
 	color: #f2622c;
 }
 /*banner section start*/
-.banner-section{
+.banner{
 	width: 100%;
 	padding: 160px 0px 65px;
 	background: url("../images/banner.png") center top no-repeat;
@@ -41,7 +44,7 @@ a, a:hover{
 	text-align: center; 
 }
 
-.banner-section h1 {
+.banner h1 {
     font-size: 52px;
     line-height: 62px;
     font-weight: 700;
@@ -49,12 +52,12 @@ a, a:hover{
     color: #fff;
     letter-spacing: 2px;
 }
-.banner-section .arrow{
+.banner .arrow{
 	width: 100%;
 	padding: 150px 0px 0px;
 
 }
-.banner-section .arrow .fa{
+.banner .arrow .fa{
 	font-size: 35px;
 	color: #fff;
 }
@@ -142,7 +145,7 @@ a, a:hover{
 }
 .inner-wedo .fa{
 	font-weight: 900;
-	padding: 140px 0px;
+	padding: 100px 0px;
 	color: #fff;
 }
 .our-attorney{
@@ -261,7 +264,8 @@ a, a:hover{
 }
 /*contact code start*/
 .contact {
-    background-color: #28377e;
+	width: 100%;
+	background-color: #28377e;
     padding: 80px 0px;
 }
 .contact .title{
